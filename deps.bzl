@@ -118,7 +118,7 @@ def anchore_deps():
     _maybe(
         http_archive,
         name = "io_bazel_rules_docker",
-        strip_prefix = "rules_docker-0.25.0",
+        #        strip_prefix = "rules_docker-0.25.0",
         sha256 = "b1e80761a8a8243d03ebca8845e9cc1ba6c82ce7c5179ce2b295cd36f7e394bf",
         urls = ["https://github.com/bazelbuild/rules_docker/releases/download/v0.25.0/rules_docker-v0.25.0.tar.gz"],
     )
