@@ -17,9 +17,9 @@ def anchore_deps():
     http_archive(
         name = "grype_linux_arm64",
         build_file_content = 'exports_files(["grype"], visibility = ["//visibility:public"])',
-        sha256 = "1f9e66b1d0fad389e2c27388f3859a3ceba14eb49de69255afcebe74bd03bb4e",
+        sha256 = "1166a2e5971691e90da41ecd0992030bbf429b728569919c6aeaac80dccb3fea",
         urls = [
-            "https://github.com/anchore/grype/releases/download/v0.63.0/grype_0.63.0_linux_arm64.tar.gz",
+            "https://github.com/anchore/grype/releases/download/v0.63.1/grype_0.63.1_linux_arm64.tar.gz",
         ],
     )
 
